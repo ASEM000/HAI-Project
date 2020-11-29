@@ -28,7 +28,7 @@ After cloning, change the directory to the backend folder:`cd HAI-Project/backen
 Create a python environment `python3 -m venv <name of environment>`
 Activate the environment:
 - On Windows(cmd): `<name of environment>\Scripts\activate.bat`
-- On MacOS/Unix: `source tutorial-env/bin/activate`
+- On MacOS/Unix: `source <name of environment>/bin/activate`
 
 Install all the libraries: `pip install -r requirements.txt`
 Set flask application to run.py:
