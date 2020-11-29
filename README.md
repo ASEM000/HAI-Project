@@ -40,4 +40,4 @@ Start the application: `flask run`
 
 Once the application starts, it will be accessible through the default ip(unless reconfigured): `http://127.0.0.1:5000`. However it should be opened from `http://localhost:5000` (CORS). If you want the application to work on a different address hoever, apart from modyfing flask configuration, you need to replace `http://localhost:5000/process` with `http://<desired address>/process` in main.js in static folder (`cd app/static`)
 
-
+#### The small database with images and expected labels is located in static/imageDb.js; 16:9 images are best suited for the entries.
