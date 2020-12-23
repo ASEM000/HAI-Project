@@ -174,7 +174,7 @@ const submit = async () => {
     const dataURL = localStorage.getItem(current)
     const emotion =  await $.ajax({
         type: "POST",
-        url: "http://emoti-hai.herokuapp.com/process",
+        url: "http://localhost:5000/process",
         data: { 
             imageBase64: dataURL
         }
